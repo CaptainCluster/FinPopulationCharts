@@ -1,3 +1,8 @@
+/**
+ * @author CaptainCluster
+ * @link https://github.com/CaptainCluster
+ */
+
 function findInputResults(municipalityData, jsonQuery){
   const userInput = document.getElementById("input-municipality").value;
   for(var i = 0; i < municipalityData[1].length; i++){
