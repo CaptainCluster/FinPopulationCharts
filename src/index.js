@@ -22,6 +22,7 @@ async function mainFunction() {
   const data = await getData(jsonQuery);
   const years = Object.values(data.dimension.Vuosi.category.label);
   const population = data.value;
+  
   buildChart(years, population);
 
   submitButton.addEventListener("click", async (event) => {
